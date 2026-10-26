@@ -11,7 +11,9 @@
         "insight": "分析：平台招商需按品牌阶段匹配服务，国内畅销不能直接证明海外需求。",
         "question": "如何选首个海外市场并验证获客、履约及售后成本？",
         "url": "https://finance.eastmoney.com/a/202610253907304519.html",
-        "imageSource": "本次未取得可核验的相关图片"
+        "imageSource": "本次未取得可核验的相关图片",
+        "id": "E-f078844c272ffddf",
+        "verification_status": "待回查"
       },
       {
         "category": "本地生活",
@@ -20,7 +22,9 @@
         "insight": "分析：服务供给扩张需同步管理预约能力和履约质量。",
         "question": "订单翻倍但准时履约下降，应如何限制接单和调配服务供给？",
         "url": "https://finance.eastmoney.com/a/202610253907304519.html",
-        "imageSource": "本次未取得可核验的相关图片"
+        "imageSource": "本次未取得可核验的相关图片",
+        "id": "E-7c4287f218c6c433",
+        "verification_status": "待回查"
       },
       {
         "category": "电商",
@@ -29,7 +33,9 @@
         "insight": "分析：收入与净利润增速差不能单独证明配送提速或服务改善；选择物流还需看线路履约与赔付。",
         "question": "如何在快递报价、揽收及时率和破损率之间选择承运商？",
         "url": "https://finance.eastmoney.com/a/202610253907304519.html",
-        "imageSource": "本次未取得可核验的相关图片"
+        "imageSource": "本次未取得可核验的相关图片",
+        "id": "E-f3b01977ccd367a3",
+        "verification_status": "待回查"
       },
       {
         "category": "本地生活",
@@ -38,7 +44,9 @@
         "insight": "分析：平台服务供给管理还涉及从业者保障与稳定性，应区分承诺、覆盖与实际执行。",
         "question": "如何衡量一项从业者保障举措的覆盖与落地效果？",
         "url": "https://finance.eastmoney.com/a/202610253907304519.html",
-        "imageSource": "本次未取得可核验的相关图片"
+        "imageSource": "本次未取得可核验的相关图片",
+        "id": "E-22cede262d0a7f7a",
+        "verification_status": "待回查"
       },
       {
         "category": "商业化",
@@ -47,7 +55,9 @@
         "insight": "分析：广告主与商家运营需要透明解释费用、退款和申诉机制，统计时应考虑交易与商家规模。",
         "question": "怎样用每万笔订单有效投诉与申诉处理时长评价服务，而非只看投诉总量？",
         "url": "https://tidenews.com.cn/tmh_news.html?id=6ad71a937e739a0001ed7306",
-        "imageSource": "本次未取得可核验的相关图片"
+        "imageSource": "本次未取得可核验的相关图片",
+        "id": "E-882fb048b6d999dc",
+        "verification_status": "待回查"
       }
     ],
     "exercise": "假设服务订单增长但履约变差：目标为提升完成订单与贡献利润，按地区、时段、新老客拆分，针对供给紧张区试行预约分流与接单上限；看完成率、准时率、取消投诉和复购，警惕促销套利、人员超负荷及高峰结构差异。"
@@ -63,7 +73,9 @@
         "summary": "10月24日20:50紫牛新闻经新浪报道，活动从10月24日起在首钢园及周边展开，涵盖互动展、市集、音乐节与交流会。未取得成交或复购成效数据；不能将预热曝光等同实际到场。",
         "insight": "分析：线上社区内容与线下体验连接，可供内容运营和本地商家运营借鉴。复盘应区分曝光、报名、到场、交易与后续复购。未取得可核验相关图片，本期不配图。",
         "question": "市集热闹但摊主成交低，如何区分客群不匹配、货品价格问题和动线承接不足？",
-        "url": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwiuth4646688.shtml"
+        "url": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwiuth4646688.shtml",
+        "id": "E-5bdb839892ba91f8",
+        "verification_status": "待回查"
       }
     ],
     "exercise": "假设负责市集商家运营：目标为提升每到场访客带来的有效成交；按目标客群与商品价格带筛选摊位，设置可追踪到场和成交方式。指标看报名到场率、购买转化、客单价及后续复购。警惕重复计数、优惠套利、拥堵与库存不足。"
@@ -81,7 +93,9 @@
         "question": "若单量增加但利润下降，你如何拆分折扣、食材、包装、配送与人工成本？",
         "url": "https://www.meituan.com/news/NN261023179008537",
         "image": "https://img.meituan.net/smartvenus/440a8289e5a8dd827cbb16c594fe340f1464662.png%40format%3Djpeg%7C80Q%7Cpr%3D1",
-        "imageSource": "美团官网转载每日经济新闻，摄影何穗"
+        "imageSource": "美团官网转载每日经济新闻，摄影何穗",
+        "id": "E-796d2e3001509385",
+        "verification_status": "待回查"
       },
       {
         "category": "商业化",
@@ -91,7 +105,9 @@
         "question": "怎样搭建商家素材审核流程，并同时跟踪审核效率和有效投诉率？",
         "url": "https://www.meituan.com/news/NN261023166013137",
         "image": "https://img.meituan.net/smartvenus/2b0a8f6749b9af14803533e38137b427363882.png@100w",
-        "imageSource": "美团官网公告缩略图"
+        "imageSource": "美团官网公告缩略图",
+        "id": "E-32f1a875af373129",
+        "verification_status": "待回查"
       },
       {
         "category": "电商",
@@ -100,7 +116,9 @@
         "insight": "分析：运营指标需要覆盖交易后的体验，用退款原因、货不对板投诉与供应商反馈改进选品。",
         "question": "你如何把售后问题转成商品分层治理，而不是只加快退款？",
         "url": "https://www.21jingji.com/article/20261021/herald/c858fcacbeb4cce805b03b4123ac19f5.html",
-        "imageSource": "未取得可正常显示且可核验的相关图片"
+        "imageSource": "未取得可正常显示且可核验的相关图片",
+        "id": "E-0047e4c000ead8c1",
+        "verification_status": "待回查"
       },
       {
         "category": "电商",
@@ -109,7 +127,9 @@
         "insight": "分析：AI素材提效必须与实物一致，低点击成本不一定抵消退款和信任损失；此规则不直接适用国内平台。",
         "question": "服饰AI图片点击率更高但货不对板退款增加，你会如何设计验证与止损？",
         "url": "https://www.etsy.com/mx/seller-handbook/article/1522733284810",
-        "imageSource": "未取得可正常显示且可核验的相关图片"
+        "imageSource": "未取得可正常显示且可核验的相关图片",
+        "id": "E-44bb6ec086f7b61c",
+        "verification_status": "待回查"
       },
       {
         "category": "商业化",
@@ -118,7 +138,9 @@
         "insight": "分析：广告展示、满足奖励条件和有效转化是不同事件。应同时观察每千次展示收入、奖励完成和用户留存。",
         "question": "观看要求加长后收入变高，是否可能牺牲用户体验和长期留存？",
         "url": "https://support.google.com/admanager/answer/179039?hl=zh-Hans",
-        "imageSource": "未取得可正常显示且可核验的相关图片"
+        "imageSource": "未取得可正常显示且可核验的相关图片",
+        "id": "E-a7d30e0b934d7b7a",
+        "verification_status": "待回查"
       }
     ],
     "exercise": "外卖门店单量上涨20%但利润下降：以提升单均贡献利润且守住复购为目标，区分新老客与时段，核对食材、包装、补贴承担、配送及增量人工。选择一组低利润套餐小范围调整，与可比门店或时段比较；追踪单均贡献利润、总贡献利润、取消投诉、出餐时长和复购。避免把订单结构变化误判为策略效果。"
@@ -135,7 +157,9 @@
         "insight": "分析：平台以激励增加内容供给，商家需要比较新增短视频制作成本与成交收益。",
         "question": "短视频播放量涨了，如何判断是否带来增量支付订单？",
         "url": "https://www.ebrun.com/20261022/715116.shtml",
-        "imageSource": "未获取到可核验的相关图片"
+        "imageSource": "未获取到可核验的相关图片",
+        "id": "E-183529f3e18aa9d9",
+        "verification_status": "待回查"
       },
       {
         "category": "电商",
@@ -145,7 +169,9 @@
         "question": "原创服饰如何在控制获客成本的同时避免陷入低价竞争？",
         "url": "https://imgs-b2b.100ec.cn/detail--6664994.html",
         "image": "https://imgs-b2b.100ec.cn/Public/Upload/image/20261021/1792552594540714.png",
-        "imageSource": "网经社报道配图（抓取超时，可能暂不可显示）"
+        "imageSource": "网经社报道配图（抓取超时，可能暂不可显示）",
+        "id": "E-6d1bb58b3d5436e6",
+        "verification_status": "待回查"
       },
       {
         "category": "本地生活",
@@ -154,7 +180,9 @@
         "insight": "分析：内容品牌延伸本地履约，要同时管理线上流量、可售库存和末端配送，而非只复制直播间。",
         "question": "如何决定小时达首批商品和覆盖范围，并控制缺货与配送成本？",
         "url": "https://www.ebrun.com/ebrungo/zb/715132.shtml",
-        "imageSource": "未获取到可核验的相关图片"
+        "imageSource": "未获取到可核验的相关图片",
+        "id": "E-b58dcb47e7a09867",
+        "verification_status": "待回查"
       },
       {
         "category": "商业化",
@@ -163,7 +191,9 @@
         "insight": "分析：评估补贴要统一归因口径，分开平台券和商家折扣成本，再观察去重支付、退款与贡献利润。",
         "question": "破亿商家数增200%，能否推出平台GMV增200%？为什么？",
         "url": "https://finance.sina.com.cn/stock/t/2026-10-20/doc-inivvxcp7604226.shtml",
-        "imageSource": "未获取到可核验的相关图片"
+        "imageSource": "未获取到可核验的相关图片",
+        "id": "E-de1d2529765d7ed8",
+        "verification_status": "待回查"
       },
       {
         "category": "商业化",
@@ -173,7 +203,9 @@
         "question": "如何设计商家激励，避免只消耗补贴却没有后续留存？",
         "url": "https://www.xinhuanet.com/tech/20261016/7fc4e06d797d43879577a0054a9f3ee2/c.html",
         "image": "https://www.xinhuanet.com/tech/20261016/7fc4e06d797d43879577a0054a9f3ee2/202610167fc4e06d797d43879577a0054a9f3ee2_20261016cc72293ad3cc449d888725419933c41a.png",
-        "imageSource": "新华网：抖音双11活动示意图"
+        "imageSource": "新华网：抖音双11活动示意图",
+        "id": "E-dde6a397cef43bd4",
+        "verification_status": "待回查"
       }
     ],
     "exercise": "选择东方甄选小时达：以提升商圈首购后30日复购为目标，明确目标客群与需求，设计20个试点SKU及覆盖范围、库存同步与配送承诺；追踪支付转化、准时履约、缺货取消、单均贡献利润和30日复购。警惕开业促销短期繁荣、直播超卖和配送成本。所有动作均为练习假设。"
@@ -189,7 +221,9 @@
         "summary": "9月29日，亚马逊宣布整合多类广告活动并增强对话式投放与分析。DVA+计划10月下旬逐步推出。",
         "insight": "自动化投放需要配合清晰目标和增量效果评估。",
         "question": "ROI提升是否来自新增成交？",
-        "url": "https://advertising.amazon.com/zh-cn/library/news/amazon-ads-agent"
+        "url": "https://advertising.amazon.com/zh-cn/library/news/amazon-ads-agent",
+        "id": "E-b40b84c1aaf1cabb",
+        "verification_status": "待回查"
       },
       {
         "category": "电商",
@@ -197,7 +231,9 @@
         "summary": "10月5日，TikTok宣布扩展GMV Max，将佣金、优惠券等成本纳入优化。这是海外业务，不能直接等同国内抖音规则。",
         "insight": "从GMV进一步分析利润与退款。",
         "question": "如何比较两场相同GMV活动的经营价值？",
-        "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en"
+        "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en",
+        "id": "E-e6e75be767bbcc85",
+        "verification_status": "待回查"
       },
       {
         "category": "电商",
@@ -205,7 +241,9 @@
         "summary": "10月14日CommerceGen-Studio预印本发布，作者报告每日生成数百万张主图的生产规模；尚不能据此推断转化率提升。",
         "insight": "主图测试应同时关注点击、支付与退款。",
         "question": "如何避免高点击主图制造错误预期？",
-        "url": "https://arxiv.org/abs/2610.20603"
+        "url": "https://arxiv.org/abs/2610.20603",
+        "id": "E-24c0a7ad81061368",
+        "verification_status": "待回查"
       },
       {
         "category": "本地生活",
@@ -213,7 +251,9 @@
         "summary": "美团10月7日报告称，小团国庆用户量和调用量较五一增长超六成，累计校验商家信息7.5亿次。校验次数不是用户数或订单数。",
         "insight": "维护营业时间、库存和套餐限制等准确商家信息。",
         "question": "如何提升AI推荐后的真实到店转化？",
-        "url": "https://www.meituan.com/news/NN261008270001908"
+        "url": "https://www.meituan.com/news/NN261008270001908",
+        "id": "E-bab4de048b9f896d",
+        "verification_status": "待回查"
       },
       {
         "category": "本地生活",
@@ -221,9 +261,12 @@
         "summary": "10月14日发布的榜单覆盖42个城市181家机构及36个城市269位医生。来源为平台报道，榜单规模不代表新增交易。",
         "insight": "高决策成本服务需要可信信息和履约保障。",
         "question": "如何从咨询、预约到实际到店评估榜单？",
-        "url": "https://www.meituan.com/news/NN261016276001063"
+        "url": "https://www.meituan.com/news/NN261016276001063",
+        "id": "E-9c848e3e60452b66",
+        "verification_status": "待回查"
       }
     ],
     "exercise": "某餐饮商家的团购销量上涨，但核销率下降，你会如何排查？先区分购买人群、套餐限制、预约容量和退款情况。"
   }
 ]
+
