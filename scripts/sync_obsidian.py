@@ -102,7 +102,7 @@ def generate(data):
         '自动生成的公开日报阅读副本；个人笔记请保存在独立私有库。\n\n'
         + f'当前共 {len(data)} 期，{len(events)} 个事件；最新 {latest}。\n\n## 日报\n\n'
         + '\n'.join('- [[D-' + r['date'] + '|' + r['date'] + ']]' for r in sorted(data, key=lambda r: r['date'], reverse=True))
-        + '\n\n## 专题\n\n' + '\n'.join('- [[' + x + ']]' for x in topics)
+        + '\n\n## 单品牌营销方案\n\n- [[单品牌营销方案|查看案例索引与模板]]\n\n## 专题\n\n' + '\n'.join('- [[' + x + ']]' for x in topics)
         + '\n\n## 知识\n\n' + '\n'.join('- [[' + x + ']]' for x in KNOWLEDGE))
     return out
 
