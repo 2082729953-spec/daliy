@@ -14,3 +14,5 @@ visibility: "public"
 - [[E-44bb6ec086f7b61c|海外参考：Etsy收紧AI商品与图片规则]]
 - [[E-f078844c272ffddf|速卖通与天猫联合扶持品牌出海]]
 - [[E-fanatics-outfit-20261026|Fanatics上线AI搭配推荐，参与度提升不等于成交提升]]
+- [[E-xhs-ai-nex-20261024|小红书聚光 AI NEX 全量上线：对话式投放助手]]
+- [[E-ocean-ai-marketing-20261021|巨量引擎分享AI经营与三层增长路径]]
