@@ -13,3 +13,4 @@ visibility: "public"
 - [[E-32f1a875af373129|美团签署互联网营销宣传自律公约]]
 - [[E-44bb6ec086f7b61c|海外参考：Etsy收紧AI商品与图片规则]]
 - [[E-f078844c272ffddf|速卖通与天猫联合扶持品牌出海]]
+- [[E-fanatics-outfit-20261026|Fanatics上线AI搭配推荐，参与度提升不等于成交提升]]
