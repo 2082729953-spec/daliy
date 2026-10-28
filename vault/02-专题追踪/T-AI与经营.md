@@ -16,3 +16,4 @@ visibility: "public"
 - [[E-fanatics-outfit-20261026|Fanatics上线AI搭配推荐，参与度提升不等于成交提升]]
 - [[E-xhs-ai-nex-20261024|小红书聚光 AI NEX 全量上线：对话式投放助手]]
 - [[E-ocean-ai-marketing-20261021|巨量引擎分享AI经营与三层增长路径]]
+- [[E-doubao-live-shopping-20261023|P0｜豆包内嵌抖音直播间，AI对话成为购物入口]]
