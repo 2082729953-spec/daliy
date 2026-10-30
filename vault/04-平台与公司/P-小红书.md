@@ -12,3 +12,5 @@ visibility: "public"
 - [[E-0047e4c000ead8c1|平台质量提升座谈会聚焦直播、即时零售与售后]]
 - [[E-5bdb839892ba91f8|小红书大城小聚落地北京首钢园]]
 - [[E-xhs-ai-nex-20261024|小红书聚光 AI NEX 全量上线：对话式投放助手]]
+- [[E-xhs-life-conference-20261028|P0｜小红书生活服务大会：探索种草与门店承接]]
+- [[E-tiktok-must-eat-20261028|P1｜海外参考：TikTok推出Must Eat餐厅指南]]

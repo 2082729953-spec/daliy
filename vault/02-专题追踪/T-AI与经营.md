@@ -17,3 +17,4 @@ visibility: "public"
 - [[E-xhs-ai-nex-20261024|小红书聚光 AI NEX 全量上线：对话式投放助手]]
 - [[E-ocean-ai-marketing-20261021|巨量引擎分享AI经营与三层增长路径]]
 - [[E-doubao-live-shopping-20261023|P0｜豆包内嵌抖音直播间，AI对话成为购物入口]]
+- [[E-xhs-life-conference-20261028|P0｜小红书生活服务大会：探索种草与门店承接]]

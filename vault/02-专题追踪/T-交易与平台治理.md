@@ -25,3 +25,7 @@ visibility: "public"
 - [[E-pdd-door-delivery-proposal-20261026|P1｜拼多多拟修订送货上门条款，征求意见中]]
 - [[E-meituan-dongshan-drone-202610|P1｜美团无人机探索山区村落配送]]
 - [[E-jd-service-day-20261028|P0｜京东10月28日超级服务日：大促延伸至生活服务]]
+- [[E-jd-wood-alliance-20261028|P0｜京东实木家具：用材质认证和线下体验降低决策疑虑]]
+- [[E-smb-ad-spend-20261029|P1｜双11中小商家投放压力：单个案例不能证明平台算法规则]]
+- [[E-tiktok-must-eat-20261028|P1｜海外参考：TikTok推出Must Eat餐厅指南]]
+- [[E-tmall-fresh-20261025|P1｜天猫食品生鲜阶段战报：比较窗口先对齐]]
