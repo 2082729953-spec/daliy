@@ -29,3 +29,7 @@ visibility: "public"
 - [[E-smb-ad-spend-20261029|P1｜双11中小商家投放压力：单个案例不能证明平台算法规则]]
 - [[E-tiktok-must-eat-20261028|P1｜海外参考：TikTok推出Must Eat餐厅指南]]
 - [[E-tmall-fresh-20261025|P1｜天猫食品生鲜阶段战报：比较窗口先对齐]]
+- [[E-suning-o2o-20261023|P0｜苏宁线下大促：领券到店增长需看转化与利润]]
+- [[E-jd-night-mall-20261030|P1｜京东家电家居：直播与门店体验联动]]
+- [[E-vipshop-1111-20261030|P1｜唯品会大促节点：单件优惠与会员专享并行]]
+- [[E-doordash-instacart-agreement-20261029|P0｜海外参考：DoorDash拟收购Instacart，交易尚待批准]]
