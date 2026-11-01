@@ -10,3 +10,4 @@ visibility: "public"
 
 - [[E-f078844c272ffddf|速卖通与天猫联合扶持品牌出海]]
 - [[E-tmall-fresh-20261025|P1｜天猫食品生鲜阶段战报：比较窗口先对齐]]
+- [[E-tmall-alcohol-instant-20261025|P1｜天猫酒水闪购阶段成交增长，警惕基数与渠道迁移]]

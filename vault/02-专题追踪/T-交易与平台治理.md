@@ -33,3 +33,5 @@ visibility: "public"
 - [[E-jd-night-mall-20261030|P1｜京东家电家居：直播与门店体验联动]]
 - [[E-vipshop-1111-20261030|P1｜唯品会大促节点：单件优惠与会员专享并行]]
 - [[E-doordash-instacart-agreement-20261029|P0｜海外参考：DoorDash拟收购Instacart，交易尚待批准]]
+- [[E-xingtu-xingchuan-d11-202610|P0｜巨量星图星川：双11达人素材激励与投放消耗挂钩]]
+- [[E-tmall-alcohol-instant-20261025|P1｜天猫酒水闪购阶段成交增长，警惕基数与渠道迁移]]
