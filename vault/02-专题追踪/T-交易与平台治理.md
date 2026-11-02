@@ -35,3 +35,6 @@ visibility: "public"
 - [[E-doordash-instacart-agreement-20261029|P0｜海外参考：DoorDash拟收购Instacart，交易尚待批准]]
 - [[E-xingtu-xingchuan-d11-202610|P0｜巨量星图星川：双11达人素材激励与投放消耗挂钩]]
 - [[E-tmall-alcohol-instant-20261025|P1｜天猫酒水闪购阶段成交增长，警惕基数与渠道迁移]]
+- [[E-smzdm-20261030-28hours|P0｜什么值得买开门红：大件品类占据平台前列]]
+- [[E-amazon-us-holiday-returns-20261101|P1｜亚马逊美国站假日退货窗口进入适用期]]
+- [[E-shanghai-11-live-month-20261101|P1｜上海11直播月启动：内容与线下场景联动]]

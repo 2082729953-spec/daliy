@@ -9,3 +9,4 @@ visibility: "public"
 平台模型、产品、地域、版本和指标口径分别核对，不用统一模型替代原生定义。
 
 - [[E-b40b84c1aaf1cabb|亚马逊发布AI广告平台]]
+- [[E-amazon-us-holiday-returns-20261101|P1｜亚马逊美国站假日退货窗口进入适用期]]
