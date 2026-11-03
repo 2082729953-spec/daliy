@@ -38,3 +38,6 @@ visibility: "public"
 - [[E-smzdm-20261030-28hours|P0｜什么值得买开门红：大件品类占据平台前列]]
 - [[E-amazon-us-holiday-returns-20261101|P1｜亚马逊美国站假日退货窗口进入适用期]]
 - [[E-shanghai-11-live-month-20261101|P1｜上海11直播月启动：内容与线下场景联动]]
+- [[E-qianwen-live-token-20261102|P0｜天猫直播：千问办公试卖数字会员]]
+- [[E-jd-auto-double11-20261030|P0｜京东养车：大促客流与门店承接]]
+- [[E-jd-alcohol-20261101|P1｜京东名酒开门红：增长应结合价格与利润]]
