@@ -14,3 +14,4 @@ visibility: "public"
 - [[E-32f1a875af373129|美团签署互联网营销宣传自律公约]]
 - [[E-22cede262d0a7f7a|七家平台联合倡议推进新就业人员参加医保]]
 - [[E-meituan-dongshan-drone-202610|P1｜美团无人机探索山区村落配送]]
+- [[E-samr-trusted-consumption-20261103|P0｜美团、淘宝闪购、京东外卖接入放心消费标识]]
