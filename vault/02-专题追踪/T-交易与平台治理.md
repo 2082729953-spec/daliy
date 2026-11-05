@@ -42,3 +42,4 @@ visibility: "public"
 - [[E-jd-auto-double11-20261030|P0｜京东养车：大促客流与门店承接]]
 - [[E-jd-alcohol-20261101|P1｜京东名酒开门红：增长应结合价格与利润]]
 - [[E-samr-trusted-consumption-20261103|P0｜美团、淘宝闪购、京东外卖接入放心消费标识]]
+- [[E-doubao-local-ads-20261104|P0｜抖音生态：豆包工作接入本地经营与广告插件]]

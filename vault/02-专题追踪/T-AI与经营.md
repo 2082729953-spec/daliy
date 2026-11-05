@@ -19,3 +19,4 @@ visibility: "public"
 - [[E-doubao-live-shopping-20261023|P0｜豆包内嵌抖音直播间，AI对话成为购物入口]]
 - [[E-xhs-life-conference-20261028|P0｜小红书生活服务大会：探索种草与门店承接]]
 - [[E-nansha-double11-guidance-20261102|P1｜广州南沙：大促AI素材和优惠信息需清楚披露]]
+- [[E-xhs-kos-governance-20261104|P1｜小红书：专业号与员工号违规营销治理进入执行期]]

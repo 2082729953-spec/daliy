@@ -14,3 +14,4 @@ visibility: "public"
 - [[E-xhs-ai-nex-20261024|小红书聚光 AI NEX 全量上线：对话式投放助手]]
 - [[E-xhs-life-conference-20261028|P0｜小红书生活服务大会：探索种草与门店承接]]
 - [[E-tiktok-must-eat-20261028|P1｜海外参考：TikTok推出Must Eat餐厅指南]]
+- [[E-xhs-kos-governance-20261104|P1｜小红书：专业号与员工号违规营销治理进入执行期]]

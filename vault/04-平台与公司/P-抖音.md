@@ -13,3 +13,4 @@ visibility: "public"
 - [[E-dde6a397cef43bd4|抖音大促分层扶商与AI工具仍在执行期]]
 - [[E-0047e4c000ead8c1|平台质量提升座谈会聚焦直播、即时零售与售后]]
 - [[E-doubao-live-shopping-20261023|P0｜豆包内嵌抖音直播间，AI对话成为购物入口]]
+- [[E-doubao-local-ads-20261104|P0｜抖音生态：豆包工作接入本地经营与广告插件]]

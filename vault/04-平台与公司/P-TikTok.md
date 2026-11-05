@@ -10,3 +10,4 @@ visibility: "public"
 
 - [[E-e6e75be767bbcc85|TikTok GMV Max计划纳入更多经营成本]]
 - [[E-tiktok-must-eat-20261028|P1｜海外参考：TikTok推出Must Eat餐厅指南]]
+- [[E-doubao-local-ads-20261104|P0｜抖音生态：豆包工作接入本地经营与广告插件]]
