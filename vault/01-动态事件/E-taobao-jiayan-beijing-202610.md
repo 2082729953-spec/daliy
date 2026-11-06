@@ -5,7 +5,7 @@ visibility: "public"
 id: "E-taobao-jiayan-beijing-202610"
 category: "本地生活"
 platforms: []
-event_date: "2026-10-15"
+event_date: null
 published_date: "2026-11-04"
 first_seen: "2026-11-06"
 last_seen: "2026-11-06"
