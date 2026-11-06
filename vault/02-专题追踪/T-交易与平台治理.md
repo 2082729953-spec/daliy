@@ -43,3 +43,7 @@ visibility: "public"
 - [[E-jd-alcohol-20261101|P1｜京东名酒开门红：增长应结合价格与利润]]
 - [[E-samr-trusted-consumption-20261103|P0｜美团、淘宝闪购、京东外卖接入放心消费标识]]
 - [[E-doubao-local-ads-20261104|P0｜抖音生态：豆包工作接入本地经营与广告插件]]
+- [[E-ocean-agency-rebate-20261030|P0｜巨量引擎：代理商返点政策拟于2027年调整]]
+- [[E-juewei-ducks-tongue-20261105|P0｜抖音生活服务：综艺热点带动鸭舌团购讨论]]
+- [[E-taobao-jiayan-beijing-202610|P1｜淘宝闪购：家宴项目北京灰度测试]]
+- [[E-jingan-food-vouchers-20261105|P1｜美团与大众点评：静安餐饮消费券延续四轮]]

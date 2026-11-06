@@ -15,3 +15,4 @@ visibility: "public"
 - [[E-22cede262d0a7f7a|七家平台联合倡议推进新就业人员参加医保]]
 - [[E-meituan-dongshan-drone-202610|P1｜美团无人机探索山区村落配送]]
 - [[E-samr-trusted-consumption-20261103|P0｜美团、淘宝闪购、京东外卖接入放心消费标识]]
+- [[E-jingan-food-vouchers-20261105|P1｜美团与大众点评：静安餐饮消费券延续四轮]]
