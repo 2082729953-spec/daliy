@@ -47,3 +47,6 @@ visibility: "public"
 - [[E-juewei-ducks-tongue-20261105|P0｜抖音生活服务：综艺热点带动鸭舌团购讨论]]
 - [[E-taobao-jiayan-beijing-202610|P1｜淘宝闪购：家宴项目北京灰度测试]]
 - [[E-jingan-food-vouchers-20261105|P1｜美团与大众点评：静安餐饮消费券延续四轮]]
+- [[E-xhs-hongka-20261106|P0｜小红书：线上电商会员“小红卡”开启招商]]
+- [[E-kuaishou-ciie-20261105|P1｜快手电商：进博会展播结合新商招募]]
+- [[E-taobao-traffic-light-shenzhen-20261105|P0｜淘宝闪购：深圳试点骑手等灯配送补时]]
