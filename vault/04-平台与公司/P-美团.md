@@ -16,3 +16,4 @@ visibility: "public"
 - [[E-meituan-dongshan-drone-202610|P1｜美团无人机探索山区村落配送]]
 - [[E-samr-trusted-consumption-20261103|P0｜美团、淘宝闪购、京东外卖接入放心消费标识]]
 - [[E-jingan-food-vouchers-20261105|P1｜美团与大众点评：静安餐饮消费券延续四轮]]
+- [[E-meituan-night-pharmacy-20261105|P0｜美团买药：小黄灯2.0计划扩展夜间供给]]

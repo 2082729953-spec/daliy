@@ -50,3 +50,6 @@ visibility: "public"
 - [[E-xhs-hongka-20261106|P0｜小红书：线上电商会员“小红卡”开启招商]]
 - [[E-kuaishou-ciie-20261105|P1｜快手电商：进博会展播结合新商招募]]
 - [[E-taobao-traffic-light-shenzhen-20261105|P0｜淘宝闪购：深圳试点骑手等灯配送补时]]
+- [[E-xhs-buyer-rule-20261107|P0｜小红书：买手管理总则进入生效期]]
+- [[E-meituan-night-pharmacy-20261105|P0｜美团买药：小黄灯2.0计划扩展夜间供给]]
+- [[E-jd-winter-hotpot-mall-20261107|P1｜京东MALL：立冬活动连接四城门店和直播]]

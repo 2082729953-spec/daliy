@@ -16,3 +16,4 @@ visibility: "public"
 - [[E-tiktok-must-eat-20261028|P1｜海外参考：TikTok推出Must Eat餐厅指南]]
 - [[E-xhs-kos-governance-20261104|P1｜小红书：专业号与员工号违规营销治理进入执行期]]
 - [[E-xhs-hongka-20261106|P0｜小红书：线上电商会员“小红卡”开启招商]]
+- [[E-xhs-buyer-rule-20261107|P0｜小红书：买手管理总则进入生效期]]
