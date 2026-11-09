@@ -53,3 +53,7 @@ visibility: "public"
 - [[E-xhs-buyer-rule-20261107|P0｜小红书：买手管理总则进入生效期]]
 - [[E-meituan-night-pharmacy-20261105|P0｜美团买药：小黄灯2.0计划扩展夜间供给]]
 - [[E-jd-winter-hotpot-mall-20261107|P1｜京东MALL：立冬活动连接四城门店和直播]]
+- [[E-pdd-food-rule-20261106|P0｜拼多多：食品行业规范进入生效期]]
+- [[E-meituan-xiaoxiang-daye-20261104|P0｜美团小象超市：黄石首站落地大冶]]
+- [[E-amazon-alexa-sms-20261106|P1｜亚马逊：Alexa购物助手试点短信入口]]
+- [[E-amazon-uber-prime-20261106|P1｜亚马逊与Uber Eats：美国Prime会员接入餐饮外卖]]
