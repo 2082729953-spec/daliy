@@ -18,3 +18,4 @@ visibility: "public"
 - [[E-jd-alcohol-20261101|P1｜京东名酒开门红：增长应结合价格与利润]]
 - [[E-samr-trusted-consumption-20261103|P0｜美团、淘宝闪购、京东外卖接入放心消费标识]]
 - [[E-jd-winter-hotpot-mall-20261107|P1｜京东MALL：立冬活动连接四城门店和直播]]
+- [[E-jd-local-leader-20261104|P1｜京东外卖：本地生活业务负责人离职]]

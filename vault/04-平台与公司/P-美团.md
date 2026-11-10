@@ -18,3 +18,4 @@ visibility: "public"
 - [[E-jingan-food-vouchers-20261105|P1｜美团与大众点评：静安餐饮消费券延续四轮]]
 - [[E-meituan-night-pharmacy-20261105|P0｜美团买药：小黄灯2.0计划扩展夜间供给]]
 - [[E-meituan-xiaoxiang-daye-20261104|P0｜美团小象超市：黄石首站落地大冶]]
+- [[E-meituan-instant-goods-20261109|P1｜美团闪购：出行商品场景数据披露]]

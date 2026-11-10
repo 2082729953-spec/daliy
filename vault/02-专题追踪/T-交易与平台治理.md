@@ -57,3 +57,6 @@ visibility: "public"
 - [[E-meituan-xiaoxiang-daye-20261104|P0｜美团小象超市：黄石首站落地大冶]]
 - [[E-amazon-alexa-sms-20261106|P1｜亚马逊：Alexa购物助手试点短信入口]]
 - [[E-amazon-uber-prime-20261106|P1｜亚马逊与Uber Eats：美国Prime会员接入餐饮外卖]]
+- [[E-douyin-unfair-competition-20261106|P0｜抖音生活服务：治理恶意订单与广告费消耗]]
+- [[E-meituan-instant-goods-20261109|P1｜美团闪购：出行商品场景数据披露]]
+- [[E-jd-local-leader-20261104|P1｜京东外卖：本地生活业务负责人离职]]
