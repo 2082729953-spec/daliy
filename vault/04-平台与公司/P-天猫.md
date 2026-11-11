@@ -12,3 +12,4 @@ visibility: "public"
 - [[E-tmall-fresh-20261025|P1｜天猫食品生鲜阶段战报：比较窗口先对齐]]
 - [[E-tmall-alcohol-instant-20261025|P1｜天猫酒水闪购阶段成交增长，警惕基数与渠道迁移]]
 - [[E-qianwen-live-token-20261102|P0｜天猫直播：千问办公试卖数字会员]]
+- [[E-taobao-flash-weekend-20261110|P0｜淘宝闪购：立冬周末零售品牌交易阶段数据]]

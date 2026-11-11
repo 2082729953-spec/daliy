@@ -17,3 +17,5 @@ visibility: "public"
 - [[E-xhs-kos-governance-20261104|P1｜小红书：专业号与员工号违规营销治理进入执行期]]
 - [[E-xhs-hongka-20261106|P0｜小红书：线上电商会员“小红卡”开启招商]]
 - [[E-xhs-buyer-rule-20261107|P0｜小红书：买手管理总则进入生效期]]
+- [[E-xhs-false-comparison-20261106|P1｜小红书：打击虚假低差营销与组织化造假]]
+- [[E-questmobile-1111-audience-20261110|P1｜QuestMobile：双11十月平台活跃用户观察]]
