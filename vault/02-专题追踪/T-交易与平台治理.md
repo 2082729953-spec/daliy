@@ -65,3 +65,7 @@ visibility: "public"
 - [[E-xhs-false-comparison-20261106|P1｜小红书：打击虚假低差营销与组织化造假]]
 - [[E-questmobile-1111-audience-20261110|P1｜QuestMobile：双11十月平台活跃用户观察]]
 - [[E-brand-livestream-20261110|P1｜品牌直播：达播和店播的预算如何取舍]]
+- [[E-douyin-food-groupbuy-20261111|P0｜抖音生活服务：双11阶段餐饮团购订单同比增长]]
+- [[E-tmall-peakprice-20261109|P1｜天猫：双11巅峰价首小时成交数据披露]]
+- [[E-shopee-double11-111min-20261111|P1｜Shopee：双11开场111分钟跨境销售数据]]
+- [[E-brand-double11-profit-20261111|P1｜品牌商家：双11评估延伸至新客、复购与利润]]

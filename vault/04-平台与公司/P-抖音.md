@@ -17,3 +17,4 @@ visibility: "public"
 - [[E-juewei-ducks-tongue-20261105|P0｜抖音生活服务：综艺热点带动鸭舌团购讨论]]
 - [[E-douyin-unfair-competition-20261106|P0｜抖音生活服务：治理恶意订单与广告费消耗]]
 - [[E-douyin-beauty-belt-20261107|P1｜抖音电商：美护产业带阶段数据发布]]
+- [[E-douyin-food-groupbuy-20261111|P0｜抖音生活服务：双11阶段餐饮团购订单同比增长]]
