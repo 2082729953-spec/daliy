@@ -69,3 +69,7 @@ visibility: "public"
 - [[E-tmall-peakprice-20261109|P1｜天猫：双11巅峰价首小时成交数据披露]]
 - [[E-shopee-double11-111min-20261111|P1｜Shopee：双11开场111分钟跨境销售数据]]
 - [[E-brand-double11-profit-20261111|P1｜品牌商家：双11评估延伸至新客、复购与利润]]
+- [[E-douyin-d11-close-20261112|P0｜抖音电商：双11收官披露商家和货架数据]]
+- [[E-meituan-health-device-d11-20261112|P1｜美团闪购：双11健康设备与养生小家电阶段表现]]
+- [[E-taobao-jiwa-food-20261112|P1｜淘宝闪购：媒体报道试水吉哇食堂外卖品牌]]
+- [[E-d11-livestream-data-20261112|P1｜直播电商：网经社梳理双11店播与达人经营]]
