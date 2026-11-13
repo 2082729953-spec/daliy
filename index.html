@@ -1,1 +1,482 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>运营情报站</title><style>*{box-sizing:border-box}body{margin:0;background:#f4f3ee;color:#25392f;font-family:system-ui,-apple-system,sans-serif}header{background:#173e32;color:#fff;padding:48px max(6vw,20px)}small{letter-spacing:3px;color:#b6ccbf}h1{font-size:clamp(32px,6vw,56px);margin:16px 0}header p{color:#d5e4db;line-height:1.8}main{max-width:1100px;margin:auto;padding:30px 20px}nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}button,input{font:inherit;padding:12px 18px;border:1px solid #cbd2c8;border-radius:8px;background:white;color:#25392f}button{cursor:pointer}button.active{background:#173e32;color:white}input{flex:1;min-width:200px}article{background:white;padding:26px;border-radius:14px;margin:18px 0;box-shadow:0 3px 20px #183d3108}h2{font-size:25px}h3{font-size:20px;margin:12px 0}p{line-height:1.85}a{color:#23724e}label,.meta{font-size:13px;color:#65796b}.tag{font-size:12px;background:#e9f2e9;padding:5px 9px;border-radius:5px}.item{border-top:1px solid #e7eae3;padding:22px 0}.item:last-child{padding-bottom:0}.item img{width:100%;max-height:320px;object-fit:contain;background:#f5f5f1;border-radius:8px}footer{padding:30px;text-align:center;color:#718073;font-size:13px}</style><header><small>DAILY OPERATIONS BRIEF</small><h1>运营情报站<span style="color:#c5df94">.</span></h1><p>商业化 · 电商 · 本地生活<br>把行业变化，变成你的面试观点。</p></header><main><nav><button class="active" data-cat="全部">全部</button><button data-cat="商业化">商业化</button><button data-cat="电商">电商</button><button data-cat="本地生活">本地生活</button><input id="search" placeholder="搜索平台、事件或关键词" aria-label="搜索日报"><input type="date" id="date" aria-label="按日期筛选"></nav><div class="meta" id="count"></div><div id="reports">正在加载归档…</div></main><footer>日报归档 · 每日更新 · 事实有来源，观点可讨论</footer><script>let data=[],cat='全部';const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const safe=s=>String(s||'').startsWith('https://')?esc(s):'';function render(){const q=document.querySelector('#search').value.toLowerCase(),d=document.querySelector('#date').value;let n=0;document.querySelector('#reports').innerHTML=data.filter(r=>!d||r.date===d).map(r=>{const items=r.items.filter(i=>(cat==='全部'||i.category===cat)&&JSON.stringify(i).toLowerCase().includes(q));if(!items.length)return '';n++;return '<article><div class="meta">'+esc(r.date)+' · '+esc(r.period||'每日简报')+'</div><h2>'+esc(r.title)+'</h2>'+items.map(i=>'<section class="item"><span class="tag">'+esc(i.category)+'</span><h3>'+esc(i.title)+'</h3>'+(safe(i.image)?'<img loading="lazy" src="'+safe(i.image)+'" alt="'+esc(i.title)+'"><div class="meta">图片来源：'+esc(i.imageSource||'原文')+'</div>':'')+'<p>'+esc(i.summary)+'</p><p><b>运营观察：</b>'+esc(i.insight)+'</p><p><b>面试思考：</b>'+esc(i.question)+'</p>'+(safe(i.url)?'<a href="'+safe(i.url)+'" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>':'')+'</section>').join('')+(r.exercise?'<p><b>今日练习：</b>'+esc(r.exercise)+'</p>':'')+'</article>'}).join('')||'<article>暂无符合条件的日报。试试其他日期或关键词。</article>';document.querySelector('#count').textContent=n+' 期归档 · 最新内容优先'}document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{cat=b.dataset.cat;document.querySelectorAll('[data-cat]').forEach(x=>x.classList.toggle('active',x===b));render()});document.querySelector('#search').oninput=render;document.querySelector('#date').oninput=render;fetch('./reports.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(x=>{data=x;render()}).catch(()=>document.querySelector('#reports').textContent='暂时无法加载，请稍后刷新。');</script></html>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>运营情报站</title><style>*{box-sizing:border-box}body{margin:0;background:#f4f3ee;color:#25392f;font-family:system-ui,-apple-system,sans-serif}header{background:#173e32;color:#fff;padding:48px max(6vw,20px)}small{letter-spacing:3px;color:#b6ccbf}h1{font-size:clamp(32px,6vw,56px);margin:16px 0}header p{color:#d5e4db;line-height:1.8}main{max-width:1100px;margin:auto;padding:30px 20px}nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}button,input{font:inherit;padding:12px 18px;border:1px solid #cbd2c8;border-radius:8px;background:white;color:#25392f}button{cursor:pointer}button.active{background:#173e32;color:white}input{flex:1;min-width:200px}article{background:white;padding:26px;border-radius:14px;margin:18px 0;box-shadow:0 3px 20px #183d3108}h2{font-size:25px}h3{font-size:20px;margin:12px 0}p{line-height:1.85}a{color:#23724e}label,.meta{font-size:13px;color:#65796b}.tag{font-size:12px;background:#e9f2e9;padding:5px 9px;border-radius:5px}.item{border-top:1px solid #e7eae3;padding:22px 0}.item:last-child{padding-bottom:0}.item img{width:100%;max-height:320px;object-fit:contain;background:#f5f5f1;border-radius:8px}footer{padding:30px;text-align:center;color:#718073;font-size:13px}</style><header><small>DAILY OPERATIONS BRIEF</small><h1>运营情报站<span style="color:#c5df94">.</span></h1><p>商业化 · 电商 · 本地生活<br>追踪平台动态、行业趋势与经营变化。</p></header><main><style>
+#platform [hidden]{display:none}.views{margin-bottom:22px}.views button{border-radius:24px}.filters{align-items:center;margin:16px 0;gap:8px}.filters select{font:inherit;padding:9px;border:1px solid #cbd2c8;border-radius:8px;background:white;color:inherit}.filters label{display:inline-flex;align-items:center;gap:6px}.filters input{min-width:0;padding:8px}.platforms{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:14px;margin-top:18px}.platforms button{text-align:left;padding:18px;white-space:normal;min-height:126px}.platforms strong,.platforms span{display:block}.platforms strong{font-size:20px;margin-bottom:6px}.platforms span{font-size:14px;margin-top:8px;line-height:1.55}.platforms button:hover{border-color:#23724e}.platform-event{border-left:2px solid #b6ccbf;padding:8px 0 14px 16px;margin:12px 0}.platform-event summary{cursor:pointer;font-weight:650;line-height:1.55}.platform-event .meta{display:block;margin-top:4px}.platform-event p{margin:10px 0}.platform-event a{margin-right:16px}button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #23724e;outline-offset:4px}#platform h2{margin-bottom:8px}#platform h3{margin-bottom:8px}
+</style>
+<nav class="views" aria-label="阅读方式">
+<button id="platform-tab" type="button" class="active" aria-pressed="true">平台</button>
+<button id="industry-tab" type="button" aria-pressed="false">行业</button>
+<button id="daily-tab" type="button" aria-pressed="false">日报</button>
+</nav>
+<div id="platform">
+<div id="group-tabs" class="group-tabs"></div>
+<h2 id="group-heading" tabindex="-1">这段时间，各平台在做什么？</h2>
+<nav class="filters" aria-label="补看范围">
+<label>时间范围 <select id="window"><option value="7">最近 7 天</option><option value="14">最近 14 天</option><option value="all">全部归档</option><option value="custom">自选日期</option></select></label>
+<label>领域 <select id="domain"><option value="">全部领域</option><option>商业化</option><option>电商</option><option>本地生活</option></select></label>
+<label id="subcategory-label" hidden>子品类 <select id="subcategory"><option value="">全部子品类</option></select></label>
+<label id="start-label" hidden>从 <input type="date" id="start"></label>
+<label id="end-label" hidden>到 <input type="date" id="end"></label>
+</nav>
+<div id="platform-status" class="meta" role="status">正在加载归档…</div>
+<div id="platform-content"></div>
+</div>
+<style>
+.news-type{border-top:1px solid #e7eae3;margin-top:15px;padding-top:3px}.news-type h3{display:flex;align-items:center;gap:10px}.empty-type,.type-count{font-size:12px;font-weight:500;border-radius:6px;padding:3px 8px}.empty-type{color:#52605a;background:#edf0eb}.type-count{color:#276349;background:#e9f2e9}
+</style>
+<style>.group-tabs{display:flex;gap:8px;overflow-x:auto;padding:5px 4px 10px;scroll-padding:4px}.group-tabs:empty{display:none}.group-tabs button{white-space:nowrap;flex-shrink:0;padding:8px 14px}</style>
+
+<style>.group-tabs{align-items:center;position:relative}.platform-tab-cluster{display:flex;align-items:center;gap:8px;flex-shrink:0;border-left:1px solid #cbd2c8;padding-left:10px}.platform-tab-cluster .meta{white-space:nowrap}</style>
+<style>.industry-highlights{margin:18px 0;padding:12px 20px;background:#e9f2e9;border-radius:12px}.industry-highlights ul{padding-left:20px}.industry-highlights li{margin:8px 0}.industry-highlights button{display:block;text-align:left;padding:2px 0;background:none;border:0;font-weight:650}.industry-event>.meta{margin-top:14px}</style>
+<style>
+.platform-detail{padding:18px clamp(14px,3vw,30px) 14px;border:1px solid #e0e5dc;box-shadow:none;background:#fffefa}
+.platform-detail .business-filters{margin:0 0 16px;gap:6px}
+.business-filters button{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:999px;font-size:13px;background:transparent;border-color:#e1e6de}
+.business-filters button.active{background:#e5eee5;color:#214734;border-color:#bdd1c0}
+.business-count{font-size:11px;font-variant-numeric:tabular-nums;color:#596f62}
+.platform-detail .news-type{margin-top:12px;padding-top:0;border-top:0}
+.platform-detail .news-type h3{margin:0 0 2px;padding:8px 10px;background:#eff2eb;border-radius:6px;font-size:14px;font-weight:650}
+.platform-detail .type-count{padding:0 5px;background:transparent;color:#53705e}
+.platform-detail .platform-event{margin:0;padding:0 10px;border-left:0;border-bottom:1px solid #e9ece6}
+.platform-detail .platform-event summary{display:grid;grid-template-columns:minmax(0,1fr) auto 12px;gap:12px;align-items:baseline;padding:11px 0;font-size:14px;font-weight:550;list-style:none}
+.platform-detail .platform-event summary::-webkit-details-marker{display:none}
+.platform-detail .platform-event summary::after{content:"+";grid-column:3;color:#48705a;text-align:center;font-size:16px}
+.platform-detail .platform-event[open]>summary::after{content:"−"}
+.platform-detail .platform-event summary .meta{margin:0;font-size:11px;font-weight:400;white-space:nowrap;font-variant-numeric:tabular-nums}
+.platform-detail .platform-event[open]{padding-bottom:12px}
+.platform-detail .platform-event p{font-size:14px;max-width:72ch}
+.platform-detail .platform-event button{padding:5px 9px;font-size:12px}
+.platform-detail .empty-sections{margin:12px 0 0;font-size:12px}
+@media(max-width:560px){
+.platform-detail .platform-event summary{grid-template-columns:minmax(0,1fr) 12px;gap:3px 8px}
+.platform-detail .platform-event summary::after{grid-column:2;grid-row:1}
+.platform-detail .platform-event summary .meta{grid-column:1}
+}
+</style>
+<div id="daily" hidden><nav><button class="active" data-cat="全部">全部</button><button data-cat="商业化">商业化</button><button data-cat="电商">电商</button><button data-cat="本地生活">本地生活</button><input id="search" placeholder="搜索平台、事件或关键词" aria-label="搜索日报"><input type="date" id="date" aria-label="按日期筛选"></nav><div class="meta" id="count"></div><div id="reports">正在加载归档…</div></div></main><footer>日报归档 · 每日更新 · 事实有来源，观点可讨论</footer><script>let data=[],cat='全部';const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const safe=s=>String(s||'').startsWith('https://')?esc(s):'';function render(){renderDailyByType()}document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{cat=b.dataset.cat;document.querySelectorAll('[data-cat]').forEach(x=>x.classList.toggle('active',x===b));render()});document.querySelector('#search').oninput=render;document.querySelector('#date').oninput=render;const el = id => document.getElementById(id);
+const platforms = [
+  ['抖音', /抖音|巨量引擎|巨量星图|穿山甲/],
+  ['美团', /美团|大众点评/],
+  ['淘宝天猫', /淘宝|天猫/],
+  ['京东', /京东/],
+  ['小红书', /小红书|REDone/i],
+  ['快手', /快手/],
+  ['拼多多', /拼多多|多多买菜/],
+  ['微信', /微信小店|视频号/],
+  ['唯品会', /唯品会/],
+  ['亚马逊', /亚马逊|Amazon/i],
+  ['TikTok', /TikTok/i],
+  ['Shopee', /Shopee/i],
+  ['速卖通', /速卖通|AliExpress/i],
+  ['苏宁', /苏宁/],
+  ['什么值得买', /什么值得买/],
+  ['东方甄选', /东方甄选/],
+  ['Zalando', /Zalando/i],
+  ['Uber Eats', /Uber Eats/i],
+  ['DoorDash', /DoorDash/i],
+  ['Instacart', /Instacart/i],
+  ['Etsy', /Etsy/i],
+  ['Google', /Google/i],
+  ['Fanatics', /Fanatics/i]
+];
+const archiveDate = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) ? value : '';
+const cleanTitle = value => String(value || '').replace(/^P\d\s*[｜|]\s*/, '');
+const slugText = value => cleanTitle(value).replace(/[^\p{L}\p{N}]/gu, '').toLowerCase();
+
+function classify(item) {
+  const title = cleanTitle(item.title);
+  const explicit = Array.isArray(item.platforms) ? item.platforms.filter(x => typeof x === 'string' && x.trim()) : [];
+  const matched = explicit.length ? explicit : platforms.filter(([, pattern]) => pattern.test(title)).map(([name]) => name);
+  return [...new Set(matched.length ? matched : ['行业动态'])];
+}
+
+function businessLine(item, platform) {
+  if (typeof item.business_line === 'string' && item.business_line.trim()) return item.business_line;
+  const title = cleanTitle(item.title);
+  if (platform === '抖音' && /抖音生活服务/.test(title)) return '生活服务';
+  if (platform === '抖音' && /抖音电商|直播间/.test(title)) return '电商';
+  if (platform === '抖音' && /巨量引擎|巨量星图|穿山甲/.test(title)) return '广告商业化';
+  if (platform === '美团' && /美团闪购|美团买药|小象超市/.test(title)) return '即时零售';
+  if (platform === '淘宝天猫' && /淘宝闪购/.test(title)) return '即时零售';
+  if (platform === '京东' && /京东外卖/.test(title)) return '外卖';
+  return {商业化:'广告商业化', 电商:'电商', 本地生活:'生活服务'}[item.category] || '其他业务';
+}
+
+function topicFor(item, platform, line) {
+  if (typeof item.topic === 'string' && item.topic.trim()) return item.topic;
+  if (platform === '抖音' && line === '电商' && /双\s*11|双十一|收官/.test(item.title)) return '双11电商进展';
+  return '';
+}
+
+function entriesFor(reports, start, end) {
+  const records = new Map();
+  for (const report of reports) {
+    if ((start && report.date < start) || (end && report.date > end)) continue;
+    for (const item of report.items) {
+      const date = archiveDate(item.event_date) || archiveDate(item.published_date) || report.date;
+      const dateLabel = archiveDate(item.event_date) ? '事件' : archiveDate(item.published_date) ? '报道' : '收录';
+      const key = slugText(item.title) + '|' + (item.url || item.event_date || item.id || report.date);
+      if (!records.has(key) || records.get(key).report.date < report.date) {
+        records.set(key, {item, report, date, dateLabel, platforms: classify(item)});
+      }
+    }
+  }
+  return [...records.values()].sort((a, b) => b.date.localeCompare(a.date) || b.report.date.localeCompare(a.report.date));
+}
+
+let selectedPlatform = '';
+let selectedLine = '';
+let selectedIndustry = '全部行业';
+let groupView = 'platform';
+const industryRules = [
+  ['美妆', /美妆|护肤|彩妆|面膜/],
+  ['个护', /个护|洗护|口腔护理/],
+  ['服饰', /服饰|服装|鞋靴|鞋服/],
+  ['食品饮料', /食品|生鲜|酒水|名酒|餐饮|食堂|鸭舌|家宴|外卖经营/],
+  ['家居家电', /家居|家具|家电|生活电器/],
+  ['数码', /数码商品|手机通讯|消费电子/],
+  ['母婴', /母婴|婴童/],
+  ['宠物', /宠物食品|宠物用品|宠物行业/],
+  ['健康', /健康设备|健康监测|买药|医美/]
+];
+const industryOverrides = [
+  [/美护产业带阶段数据/, ['美妆']],
+  [/什么值得买开门红/, ['数码', '家居家电']],
+  [/双11中小商家投放压力/, ['家居家电']]
+];
+
+function industriesFor(item) {
+  if (Array.isArray(item.industries)) return item.industries.filter(name => typeof name === 'string' && name.trim());
+  const title = cleanTitle(item.title);
+  const override = industryOverrides.find(([pattern]) => pattern.test(title));
+  return override ? override[1] : industryRules.filter(([, pattern]) => pattern.test(title)).map(([name]) => name);
+}
+
+
+const platformClusters = [
+  ['内容平台', ['抖音', '小红书', '快手', '微信', 'TikTok']],
+  ['货架平台', ['美团', '京东', '淘宝天猫', '拼多多', '唯品会', '亚马逊', 'Shopee', '速卖通', '苏宁']]
+];
+
+function clusterPlatforms(names) {
+  const remaining = new Set(names);
+  return [
+    ...platformClusters.map(([label, order]) => [label, order.filter(name => remaining.delete(name))]),
+    ['其他', [...remaining].sort((a, b) => a.localeCompare(b, 'zh-CN'))]
+  ].filter(([, members]) => members.length);
+}
+
+function platformLabel(name) {
+  return name === '淘宝天猫' ? '淘天' : name;
+}
+
+function renderGroupTabs() {
+  const industry = groupView === 'industry';
+  const active = industry ? selectedIndustry : selectedPlatform;
+  const tabs = el('group-tabs');
+  tabs.setAttribute('role', 'group');
+  tabs.setAttribute('aria-label', industry ? '切换行业' : '切换平台');
+  const button = name => '<button type="button" data-group="' + esc(name) +
+    '" aria-pressed="' + (name === active) + '" class="' + (name === active ? 'active' : '') + '">' +
+    esc(industry ? name : platformLabel(name)) + '</button>';
+  if (industry) {
+    const names = new Set(['全部行业', ...industryRules.map(([name]) => name), ...data.flatMap(report => report.items.flatMap(industriesFor))]);
+    tabs.innerHTML = [...names].map(button).join('');
+  } else if (selectedPlatform) {
+    const names = entriesFor(data, '', '').flatMap(entry => entry.platforms);
+    tabs.innerHTML = button('所有平台') + clusterPlatforms(names).map(([label, members]) =>
+      '<div class="platform-tab-cluster" role="group" aria-label="' + esc(label) + '">' +
+      '<span class="meta">' + esc(label) + '</span>' + members.map(button).join('') + '</div>').join('');
+  } else {
+    tabs.innerHTML = '';
+  }
+  const current = tabs.querySelector('[aria-pressed="true"]');
+  if (current) tabs.scrollLeft = Math.max(0, current.offsetLeft - tabs.offsetLeft - tabs.clientWidth / 2);
+}
+
+function showView(daily, day = '', title = '') {
+  el('platform').hidden = daily;
+  el('daily').hidden = !daily;
+  for (const [id, active] of [['daily-tab', daily], ['platform-tab', !daily && groupView === 'platform'], ['industry-tab', !daily && groupView === 'industry']]) {
+    el(id).classList.toggle('active', active);
+    el(id).setAttribute('aria-pressed', active);
+  }
+  if (daily && day) {
+    cat = '全部';
+    document.querySelectorAll('[data-cat]').forEach(button => button.classList.toggle('active', button.dataset.cat === cat));
+    el('search').value = '';
+    el('date').value = day;
+    render();
+    const target = [...document.querySelectorAll('#reports summary')].find(node => node.querySelector('.event-title')?.textContent === cleanTitle(title));
+    if (target) target.parentElement.open = true;
+    (target || el('reports')).scrollIntoView({block:'start'});
+  }
+}
+
+function eventMarkup(entry, linkToDaily = true, headline = cleanTitle(entry.item.title)) {
+  const {item, report} = entry;
+  const date = entry.date || archiveDate(item.event_date) || archiveDate(item.published_date) || report.date;
+  const dateLabel = entry.dateLabel || (archiveDate(item.event_date) ? '事件' : archiveDate(item.published_date) ? '报道' : '收录');
+  const image = safe(item.image);
+  return '<details class="platform-event"><summary>' + '<span class="event-title">' + esc(headline) +
+    '</span><span class="meta">' + esc(date) + ' · ' + dateLabel + '</span></summary>' +
+    (image ? '<img loading="lazy" style="max-width:100%;max-height:280px" src="' + image + '" alt="' + esc(item.title) + '"><div class="meta">图片来源：' + esc(item.imageSource || '原文') + '</div>' : '') +
+    '<p>' + esc(item.summary) + '</p>' +
+    (item.insight ? '<p><b>运营观察：</b>' + esc(item.insight) + '</p>' : '') +
+    (item.question ? '<p><b>经营议题：</b>' + esc(item.question) + '</p>' : '') +
+    (safe(item.url) ? '<a href="' + safe(item.url) + '" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>' : '') +
+    (linkToDaily ? '<button type="button" data-day="' + esc(report.date) + '" data-title="' + esc(item.title) + '">打开 ' + esc(report.date) + ' 日报</button>' : '') + '</details>';
+}
+
+function rangeFor(reports, mode, start, end) {
+  const latest = reports.map(report => report.date).sort().at(-1);
+  if (mode === 'custom') return [start, end];
+  if (mode === 'all' || !latest) return ['', ''];
+  const first = new Date(latest + 'T00:00:00Z');
+  first.setUTCDate(first.getUTCDate() - Number(mode) + 1);
+  return [first.toISOString().slice(0, 10), latest];
+}
+
+function renderPlatform() {
+  const industry = groupView === 'industry';
+  renderGroupTabs();
+  if (!industry) el('subcategory-label').hidden = true;
+  el('group-heading').textContent = industry ? selectedIndustry + ' · 跨平台动态' :
+    platformLabel(selectedPlatform) || '这段时间，各平台在做什么？';
+  const mode = el('window').value;
+  el('start-label').hidden = el('end-label').hidden = mode !== 'custom';
+  const [start, end] = rangeFor(data, mode, el('start').value, el('end').value);
+  const content = el('platform-content');
+  if (start && end && start > end) {
+    el('platform-status').textContent = '开始日期需要早于或等于结束日期。';
+    content.innerHTML = '';
+    el('subcategory-label').hidden = true;
+    return;
+  }
+  const domain = el('domain').value;
+  const records = entriesFor(data, start, end).filter(({item}) => !domain || item.category === domain);
+  const period = start || end ? (start || '最早归档') + ' 至 ' + (end || '最新归档') : '全部归档';
+  const pending = start && start === end && start >= shanghaiToday() && !data.some(report => report.date === start);
+  const visibleRecords = industry ? records.filter(({item}) => {
+    const names = industriesFor(item);
+    return selectedIndustry === '全部行业' ? names.length > 0 : names.includes(selectedIndustry);
+  }) :
+    selectedPlatform ? records.filter(entry => entry.platforms.includes(selectedPlatform)) : records;
+  const count = industry ? renderIndustry(visibleRecords, pending ? '待更新' : '无') : visibleRecords.length;
+  el('platform-status').textContent = period + ' · ' + count + ' 条动态 · 按日报收录日期筛选';
+  if (industry) return;
+  const groups = new Map();
+  for (const entry of records) {
+    for (const name of entry.platforms) {
+      if (!groups.has(name)) groups.set(name, []);
+      groups.get(name).push(entry);
+    }
+  }
+  if (!records.length) {
+    content.innerHTML = '<article>' + (selectedPlatform ? '<button type="button" data-back>← 所有平台</button><h2>' + esc(platformLabel(selectedPlatform)) + '</h2>' : '') +
+      typeMarkup([], () => '', pending ? '待更新' : '无') + '</article>';
+    return;
+  }
+  
+  if (!selectedPlatform) {
+    content.innerHTML = clusterPlatforms(groups.keys()).map(([label, members]) =>
+      '<section><h3>' + esc(label) + '</h3><div class="platforms">' + members.map(name => {
+      const list = groups.get(name);
+      const lines = [...new Set(list.map(({item}) => businessLine(item, name)))];
+      return '<button type="button" data-platform="' + esc(name) + '"><strong>' + esc(platformLabel(name)) +
+        '</strong><span class="meta">' + list.length + ' 条 · ' + esc(lines.join(' / ')) + '</span>' +
+        list.slice(0, 2).map(({item}) => '<span>' + esc(cleanTitle(item.title)) + '</span>').join('') + '</button>';
+    }).join('') + '</div></section>').join('');
+    return;
+  }
+  const lines = new Map();
+  for (const entry of groups.get(selectedPlatform) || []) {
+    const line = businessLine(entry.item, selectedPlatform);
+    if (!lines.has(line)) lines.set(line, []);
+    lines.get(line).push(entry);
+  }
+  if (!lines.has(selectedLine)) selectedLine = '';
+  const buttons = [['', '全部业务'], ...[...lines].map(([name, list]) => [name, name, list.length])];
+  const visible = [...lines].filter(([name]) => !selectedLine || name === selectedLine).flatMap(([, list]) => list)
+    .sort((a, b) => b.date.localeCompare(a.date));
+  content.innerHTML = '<article class="platform-detail"><nav class="filters business-filters" aria-label="业务线">' + buttons.map(([value, label, count]) =>
+    '<button type="button" data-line="' + esc(value) + '" aria-pressed="' + (value === selectedLine) +
+    '" class="' + (value === selectedLine ? 'active' : '') + '">' + esc(label) + (count ? '<span class="business-count">' + count + '</span>' : '') + '</button>').join('') +
+    '</nav>' + typeMarkup(visible, list => {
+      const topics = new Map();
+      for (const entry of list) {
+        const topic = topicFor(entry.item, selectedPlatform, businessLine(entry.item, selectedPlatform));
+        if (!topics.has(topic)) topics.set(topic, []);
+        topics.get(topic).push(entry);
+      }
+      return [...topics].map(([topic, events]) => {
+        if (!topic || events.length === 1) return events.map(entry => eventMarkup(entry)).join('');
+        return '<details class="platform-event"><summary>' + '<span class="event-title">' + esc(topic) + '</span><span class="meta">' + events.length + ' 条进展</span></summary>' +
+          [...events].reverse().map(entry => eventMarkup(entry)).join('') + '</details>';
+      }).join('');
+    }, '无', newsTypes, newsType, true) + '</article>';
+}
+
+el('daily-tab').onclick = () => showView(true);
+function openGroupView(view) {
+  groupView = view;
+  showView(false);
+  renderPlatform();
+}
+el('platform-tab').onclick = () => openGroupView('platform');
+el('industry-tab').onclick = () => openGroupView('industry');
+el('group-tabs').onclick = event => {
+  const button = event.target.closest('[data-group]');
+  if (!button) return;
+  const name = button.dataset.group;
+  if (groupView === 'industry') {
+    selectedIndustry = name;
+    el('subcategory').value = '';
+  }
+  else {
+    selectedPlatform = name === '所有平台' ? '' : name;
+    selectedLine = '';
+  }
+  renderPlatform();
+  const active = el('group-tabs').querySelector('[aria-pressed="true"]');
+  (active || el('platform-content').querySelector('[data-platform]'))?.focus();
+};
+for (const id of ['window', 'domain', 'start', 'end', 'subcategory']) el(id).onchange = renderPlatform;
+el('platform-content').onclick = event => {
+  const button = event.target.closest('button');
+  if (!button) return;
+  if (button.dataset.highlight) {
+    const details = el(button.dataset.highlight).querySelector('details');
+    details.open = true;
+    details.querySelector('summary').focus();
+    details.scrollIntoView({block: 'start'});
+    return;
+  }
+  if (button.hasAttribute('data-day')) {
+    showView(true, button.dataset.day, button.dataset.title);
+    return;
+  }
+  if (button.hasAttribute('data-line')) selectedLine = button.dataset.line;
+  else {
+    selectedPlatform = button.dataset.platform || '';
+    selectedLine = '';
+  }
+  renderPlatform();
+  if (button.hasAttribute('data-line')) el('platform-content').querySelector('[data-line][aria-pressed="true"]')?.focus();
+  else if (selectedPlatform) el('group-heading')?.focus();
+  else [...el('platform-content').querySelectorAll('[data-platform]')].find(node => node.dataset.platform === button.closest('article')?.querySelector('h2')?.textContent)?.focus();
+};
+
+const newsTypes = ['产品与能力', '战略与业务布局', '运营动作', '经营表现与披露', '规则与治理'];
+const typeRules = [
+  [4, /治理|规范|返点|条款|公约|退货窗口|审核|处罚|观看时长|医保|合规|放心消费标识|收紧.*规则/],
+  [1, /拟收购|负责人离职|首站落地|联合扶持|业务重组|业务退出/],
+  [3, /战报|成交数据|阶段数据|经营数据|同比增长|订单增长|阶段表现|收官披露|成交增长|销售数据|活跃用户观察|披露行业收入|开门红|投诉报告/],
+  [0, /上线|新入口|接入|投放助手|购物助手|购物入口|内嵌|发布.*管家|发布.*榜|发布AI广告平台|试卖数字会员|灰度测试|试水.*品牌/],
+  [2, /激励|补贴|招商|招募|消费券|扶持|专享|大促|试点|活动|展播|推广/],
+  [1, /大会|增长路径|探索|布局|座谈会/]
+];
+function newsType(item) {
+  if (newsTypes.includes(item.news_type)) return item.news_type;
+  const title = cleanTitle(item.title);
+  if (/小红卡.*招商|激励.*挂钩/.test(title)) return newsTypes[2];
+  const rule = typeRules.find(([, pattern]) => pattern.test(title));
+  return rule ? newsTypes[rule[0]] : newsTypes[3];
+}
+function typeMarkup(records, renderEntries, emptyLabel = '无', types = newsTypes, classifyType = newsType, compact = false) {
+  const emptyTypes = [];
+  const sections = types.map(type => {
+    const matches = records.filter(({item}) => classifyType(item) === type);
+    if (compact && !matches.length) {
+      emptyTypes.push(type);
+      return '';
+    }
+    return '<section class="news-type"><h3>' + esc(type) +
+      (matches.length ? '<span class="type-count">' + matches.length + '</span>' : '<span class="empty-type">' + esc(emptyLabel) + '</span>') +
+      '</h3>' + (matches.length ? renderEntries(matches) : '') + '</section>';
+  }).join('');
+  return sections + (emptyTypes.length ? '<p class="meta empty-sections">本期' +
+    (emptyLabel === '待更新' ? '待更新' : '暂无更新') + ' · ' + esc(emptyTypes.join('、')) + '</p>' : '');
+}
+function shanghaiToday() {
+  return new Intl.DateTimeFormat('sv-SE', {timeZone:'Asia/Shanghai'}).format(new Date());
+}
+function reportTitle(title) {
+  return String(title || '').replace(/(?:互联网)?运营求职(?:早报|日报)/g, '互联网运营日报').replace(/ · 求职专题/g, ' · 月度回顾');
+}
+function scenarioText(text) {
+  return text
+    .replace(/^【[^】]*练习[^】]*】[：:]?/, '')
+    .replace(/^练习假设[：:]\s*/, '')
+    .replace(/面试练习假设|练习假设/g, '情景假设');
+}
+function renderDailyByType() {
+  const query = el('search').value.trim().toLowerCase();
+  const day = el('date').value;
+  const reports = data.filter(report => !day || report.date === day);
+  const cards = reports.map(report => {
+    const matches = report.items.filter(item => (cat === '全部' || item.category === cat) &&
+      JSON.stringify(item).toLowerCase().includes(query));
+    return '<article><div class="meta">' + esc(report.date) + '</div><h2>' + esc(reportTitle(report.title)) + '</h2>' +
+      typeMarkup(matches.map(item => ({item, report})), entries => entries.map(entry => eventMarkup(entry, false)).join('')) +
+      (report.exercise ? '<p><b>运营推演（情景假设）：</b>' + esc(scenarioText(report.exercise)) + '</p>' : '') + '</article>';
+  });
+  const pending = day && day >= shanghaiToday();
+  el('reports').innerHTML = cards.join('') || '<article><h2>' + esc(day || '日报归档') + '</h2>' +
+    typeMarkup([], () => '', pending ? '待更新' : '无') + '</article>';
+  el('count').textContent = reports.length + ' 期归档' + (day && !reports.length && !pending ? ' · 当日无归档' : '');
+}
+
+const industryTypes = ['市场与需求', '渠道与经营', '品牌与竞争', '新品与供给', '规则与风险'];
+const subcategoryRules = {
+  美妆: [['护肤', /护肤|面膜|精华/], ['彩妆', /彩妆|口红|粉底/], ['香水香氛', /香水|香氛/]],
+  个护: [['洗护', /洗护|洗发|沐浴/], ['口腔护理', /口腔|牙膏|牙刷/]],
+  服饰: [['女装', /女装/], ['男装', /男装/], ['运动户外', /运动户外|运动服饰/]],
+  食品饮料: [['生鲜', /生鲜/], ['酒水', /酒水|名酒|白酒/], ['餐饮', /餐饮|食堂|鸭舌|家宴|外卖经营/]],
+  家居家电: [['家具', /家具/], ['家电', /家电|生活电器/]]
+};
+const industryTypeRules = [
+  [4, /规范|合规|新规|质量事件|召回|处罚|风险提示/],
+  [3, /新品|新配方|新材料|产能|原料成本/],
+  [2, /并购|收购|市场份额|品牌退出|品牌扩张/],
+  [0, /阶段数据|经营数据|阶段表现|战报|同比|开门红|销量|成交增长/]
+];
+function industryType(item) {
+  if (industryTypes.includes(item.industry_type)) return item.industry_type;
+  return industryTypes[industryTypeRules.find(([, pattern]) => pattern.test(cleanTitle(item.title)))?.[0] ?? 1];
+}
+function subcategoriesFor(item, industry) {
+  const explicit = item.subcategories?.[industry];
+  if (Array.isArray(explicit)) return explicit.filter(name => typeof name === 'string' && name.trim());
+  const text = [item.title, item.summary].join(' ');
+  return (subcategoryRules[industry] || []).filter(([, pattern]) => pattern.test(text)).map(([name]) => name);
+}
+function industryHeadline(item) {
+  if (item.industry_headline) return item.industry_headline;
+  if (/美护产业带阶段数据/.test(item.title) && /广州面膜产业带.*51%/.test(item.summary)) {
+    return '据报道，双11阶段抖音电商广州面膜产业带商品日均成交额同比增51%';
+  }
+  return cleanTitle(item.title);
+}
+function renderIndustry(records, emptyLabel) {
+  const options = [...new Set(records.flatMap(({item}) => subcategoriesFor(item, selectedIndustry)))];
+  const select = el('subcategory');
+  const previous = select.value;
+  select.innerHTML = '<option value="">全部子品类</option>' + options.map(name => '<option>' + esc(name) + '</option>').join('');
+  select.value = options.includes(previous) ? previous : '';
+  el('subcategory-label').hidden = !options.length;
+  const visible = records.filter(({item}) => !select.value || subcategoriesFor(item, selectedIndustry).includes(select.value));
+  const ids = new Map(visible.map((entry, index) => [entry, 'industry-event-' + index]));
+  const highlights = visible.filter(({item}) => safe(item.url)).slice(0, 3);
+  const overview = highlights.length ? '<section class="industry-highlights"><h3>近期重点</h3><ul>' +
+    highlights.map(entry => '<li><button type="button" data-highlight="' + ids.get(entry) + '">' +
+      esc(industryHeadline(entry.item)) + '</button><span class="meta">' + esc(entry.date) + ' · ' +
+      esc(entry.dateLabel) + '</span> <a href="' + safe(entry.item.url) +
+      '" target="_blank" rel="noopener noreferrer">来源 ↗</a></li>').join('') + '</ul></section>' : '';
+  const sections = typeMarkup(visible, entries => entries.map(entry => '<div class="industry-event" id="' + ids.get(entry) +
+    '"><div class="meta">' + esc([...entry.platforms.map(platformLabel), entry.item.category,
+      ...industriesFor(entry.item)].filter(Boolean).join(' · ')) + '</div>' +
+    eventMarkup(entry, true, industryHeadline(entry.item)) + '</div>').join(''), emptyLabel, industryTypes, industryType, true);
+  el('platform-content').innerHTML = overview + '<article>' + sections + '</article>';
+  return visible.length;
+}
+
+fetch('./reports.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(x=>{data=x;render();renderPlatform()}).catch(()=>document.querySelector('#reports').textContent='暂时无法加载，请稍后刷新。');</script></html>
