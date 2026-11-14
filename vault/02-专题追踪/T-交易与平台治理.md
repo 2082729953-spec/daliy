@@ -73,3 +73,4 @@ visibility: "public"
 - [[E-meituan-health-device-d11-20261112|P1｜美团闪购：双11健康设备与养生小家电阶段表现]]
 - [[E-taobao-jiwa-food-20261112|P1｜淘宝闪购：媒体报道试水吉哇食堂外卖品牌]]
 - [[E-d11-livestream-data-20261112|P1｜直播电商：网经社梳理双11店播与达人经营]]
+- [[E-syntun-d11-instant-retail-20261112|P0｜即时零售：第三方监测双11销售额891亿元，同比增长33%]]

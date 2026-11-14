@@ -20,3 +20,4 @@ visibility: "public"
 - [[E-meituan-xiaoxiang-daye-20261104|P0｜美团小象超市：黄石首站落地大冶]]
 - [[E-meituan-instant-goods-20261109|P1｜美团闪购：出行商品场景数据披露]]
 - [[E-meituan-health-device-d11-20261112|P1｜美团闪购：双11健康设备与养生小家电阶段表现]]
+- [[E-syntun-d11-instant-retail-20261112|P0｜即时零售：第三方监测双11销售额891亿元，同比增长33%]]

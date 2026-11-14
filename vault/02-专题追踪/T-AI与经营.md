@@ -22,3 +22,4 @@ visibility: "public"
 - [[E-xhs-kos-governance-20261104|P1｜小红书：专业号与员工号违规营销治理进入执行期]]
 - [[E-wechat-ai-live-20261106|P1｜微信小店：服务商解读数字人带货规范生效]]
 - [[E-zalando-extended-20261103|P1｜Zalando：跨店发现连接AI代购与零售广告]]
+- [[E-ai-appliance-demand-20261113|P1｜家电：媒体观察双11 AI家电增长，消费者仍关注功能价值]]
