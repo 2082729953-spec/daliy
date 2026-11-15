@@ -21,3 +21,4 @@ visibility: "public"
 - [[E-jd-local-leader-20261104|P1｜京东外卖：本地生活业务负责人离职]]
 - [[E-questmobile-1111-audience-20261110|P1｜QuestMobile：双11十月平台活跃用户观察]]
 - [[E-syntun-d11-instant-retail-20261112|P0｜即时零售：第三方监测双11销售额891亿元，同比增长33%]]
+- [[E-jd-drama-shopping-test-20261110|P0｜媒体报道京东内测短剧产品，商品跳转仍待完善]]

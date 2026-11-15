@@ -19,3 +19,4 @@ visibility: "public"
 - [[E-xhs-buyer-rule-20261107|P0｜小红书：买手管理总则进入生效期]]
 - [[E-xhs-false-comparison-20261106|P1｜小红书：打击虚假低差营销与组织化造假]]
 - [[E-questmobile-1111-audience-20261110|P1｜QuestMobile：双11十月平台活跃用户观察]]
+- [[E-xiaohongshu-2026-d11-close|P0｜小红书双11收官，报名混资商品GMV为日常1.6倍]]

@@ -74,3 +74,6 @@ visibility: "public"
 - [[E-taobao-jiwa-food-20261112|P1｜淘宝闪购：媒体报道试水吉哇食堂外卖品牌]]
 - [[E-d11-livestream-data-20261112|P1｜直播电商：网经社梳理双11店播与达人经营]]
 - [[E-syntun-d11-instant-retail-20261112|P0｜即时零售：第三方监测双11销售额891亿元，同比增长33%]]
+- [[E-xiaohongshu-2026-d11-close|P0｜小红书双11收官，报名混资商品GMV为日常1.6倍]]
+- [[E-jd-drama-shopping-test-20261110|P0｜媒体报道京东内测短剧产品，商品跳转仍待完善]]
+- [[E-bilibili-d11-video-commerce-20261113|P1｜B站披露双11视频带货UP主同比增长41%]]
