@@ -77,3 +77,6 @@ visibility: "public"
 - [[E-xiaohongshu-2026-d11-close|P0｜小红书双11收官，报名混资商品GMV为日常1.6倍]]
 - [[E-jd-drama-shopping-test-20261110|P0｜媒体报道京东内测短剧产品，商品跳转仍待完善]]
 - [[E-bilibili-d11-video-commerce-20261113|P1｜B站披露双11视频带货UP主同比增长41%]]
+- [[E-20261116-xiaoxiang-chongqing|P1｜美团小象超市：媒体称重庆西南首家大店计划 11 月 20 日开业]]
+- [[E-20261112-dingdong-q3|P1｜叮咚买菜：媒体转述三季度 GMV 同比增长 14.3%]]
+- [[E-20261113-niq-moments|P2｜即时零售：尼尔森 IQ 在采访中提出按消费时刻运营]]

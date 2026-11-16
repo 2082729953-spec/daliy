@@ -20,3 +20,4 @@ visibility: "public"
 - [[E-xhs-false-comparison-20261106|P1｜小红书：打击虚假低差营销与组织化造假]]
 - [[E-questmobile-1111-audience-20261110|P1｜QuestMobile：双11十月平台活跃用户观察]]
 - [[E-xiaohongshu-2026-d11-close|P0｜小红书双11收官，报名混资商品GMV为日常1.6倍]]
+- [[E-20261113-xhs-dada|P1｜小红书：媒体实测内测 AI 搭子社区「搭搭」]]

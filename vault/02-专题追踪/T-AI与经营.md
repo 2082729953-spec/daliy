@@ -24,3 +24,4 @@ visibility: "public"
 - [[E-zalando-extended-20261103|P1｜Zalando：跨店发现连接AI代购与零售广告]]
 - [[E-ai-appliance-demand-20261113|P1｜家电：媒体观察双11 AI家电增长，消费者仍关注功能价值]]
 - [[E-tencent-yuanbao-search-20261111|P0｜腾讯元宝搜索上线，广告与AI答案分区呈现]]
+- [[E-20261113-xhs-dada|P1｜小红书：媒体实测内测 AI 搭子社区「搭搭」]]
