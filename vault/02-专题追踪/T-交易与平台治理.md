@@ -80,3 +80,6 @@ visibility: "public"
 - [[E-20261116-xiaoxiang-chongqing|P1｜美团小象超市：媒体称重庆西南首家大店计划 11 月 20 日开业]]
 - [[E-20261112-dingdong-q3|P1｜叮咚买菜：媒体转述三季度 GMV 同比增长 14.3%]]
 - [[E-20261113-niq-moments|P2｜即时零售：尼尔森 IQ 在采访中提出按消费时刻运营]]
+- [[E-weiyu-douyin-d11-20261116|P1｜抖音：微雨女装用场景直播展示新中式商品]]
+- [[E-xhs-category-deposit-20261114|P1｜小红书：类目保证金标准修订版进入生效期]]
+- [[E-fujian-platform-guidance-20261116|P1｜福建：媒体报道平台行政指导强调餐饮资质与骑手保障]]
