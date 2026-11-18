@@ -83,3 +83,8 @@ visibility: "public"
 - [[E-weiyu-douyin-d11-20261116|P1｜抖音：微雨女装用场景直播展示新中式商品]]
 - [[E-xhs-category-deposit-20261114|P1｜小红书：类目保证金标准修订版进入生效期]]
 - [[E-fujian-platform-guidance-20261116|P1｜福建：媒体报道平台行政指导强调餐饮资质与骑手保障]]
+- [[E-jd-q3-2026-results|P0｜京东：三季度平台及营销服务收入同比增长9.6%]]
+- [[E-pdd-appeal-compensation-20261116|P0｜拼多多：申诉优赔增加平台主动识别异常售后]]
+- [[E-doubao-map-discovery-20261116|P1｜豆包：地图找店将门店发现与团购入口放进对话]]
+- [[E-wechatshop-d11-20261116|P1｜微信小店：双11小店与卡包场景成交同比增长407%]]
+- [[E-twitch-shop-skip-ads-20261113|P1｜Twitch：美加测试可购物广告，12月拟测试可跳过广告]]
