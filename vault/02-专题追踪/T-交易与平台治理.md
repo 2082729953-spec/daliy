@@ -88,3 +88,5 @@ visibility: "public"
 - [[E-doubao-map-discovery-20261116|P1｜豆包：地图找店将门店发现与团购入口放进对话]]
 - [[E-wechatshop-d11-20261116|P1｜微信小店：双11小店与卡包场景成交同比增长407%]]
 - [[E-twitch-shop-skip-ads-20261113|P1｜Twitch：美加测试可购物广告，12月拟测试可跳过广告]]
+- [[E-sf-intracity-d11-20261118|P1｜顺丰同城：双11即时配送多品类订单增长]]
+- [[E-jd-amazon-blackfriday-20261118|P1｜京东与亚马逊海外购：推出首届京亚好物节]]

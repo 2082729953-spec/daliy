@@ -25,3 +25,6 @@ visibility: "public"
 - [[E-ai-appliance-demand-20261113|P1｜家电：媒体观察双11 AI家电增长，消费者仍关注功能价值]]
 - [[E-tencent-yuanbao-search-20261111|P0｜腾讯元宝搜索上线，广告与AI答案分区呈现]]
 - [[E-20261113-xhs-dada|P1｜小红书：媒体实测内测 AI 搭子社区「搭搭」]]
+- [[E-tencent-q3-marketing-20261118|P0｜腾讯：三季度营销服务收入同比增长19%]]
+- [[E-kuaishou-yoola-20261117|P1｜快手：Yoola 内测互动玩法创作与广告分成]]
+- [[E-qianwen-brand-knowledge-20261118|P1｜阿里千问：电商版推出品牌知识库]]

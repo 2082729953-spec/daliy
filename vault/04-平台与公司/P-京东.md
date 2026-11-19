@@ -23,3 +23,4 @@ visibility: "public"
 - [[E-syntun-d11-instant-retail-20261112|P0｜即时零售：第三方监测双11销售额891亿元，同比增长33%]]
 - [[E-jd-drama-shopping-test-20261110|P0｜媒体报道京东内测短剧产品，商品跳转仍待完善]]
 - [[E-jd-q3-2026-results|P0｜京东：三季度平台及营销服务收入同比增长9.6%]]
+- [[E-jd-amazon-blackfriday-20261118|P1｜京东与亚马逊海外购：推出首届京亚好物节]]
