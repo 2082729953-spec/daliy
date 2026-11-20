@@ -13,3 +13,4 @@ visibility: "public"
 - [[E-0047e4c000ead8c1|平台质量提升座谈会聚焦直播、即时零售与售后]]
 - [[E-kuaishou-ciie-20261105|P1｜快手电商：进博会展播结合新商招募]]
 - [[E-kuaishou-yoola-20261117|P1｜快手：Yoola 内测互动玩法创作与广告分成]]
+- [[E-kuaishou-anhui-harvest-20261118|P1｜快手：安徽站组织产地商家与达人双选]]

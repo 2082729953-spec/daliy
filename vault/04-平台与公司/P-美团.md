@@ -22,3 +22,4 @@ visibility: "public"
 - [[E-meituan-health-device-d11-20261112|P1｜美团闪购：双11健康设备与养生小家电阶段表现]]
 - [[E-syntun-d11-instant-retail-20261112|P0｜即时零售：第三方监测双11销售额891亿元，同比增长33%]]
 - [[E-20261116-xiaoxiang-chongqing|P1｜美团小象超市：媒体称重庆西南首家大店计划 11 月 20 日开业]]
+- [[E-meituan-dubai-winch-20261118|P1｜美团：索降无人机在迪拜亮相，航线计划近期投入使用]]
