@@ -14,3 +14,5 @@ visibility: "public"
 - [[E-kuaishou-ciie-20261105|P1｜快手电商：进博会展播结合新商招募]]
 - [[E-kuaishou-yoola-20261117|P1｜快手：Yoola 内测互动玩法创作与广告分成]]
 - [[E-kuaishou-anhui-harvest-20261118|P1｜快手：安徽站组织产地商家与达人双选]]
+- [[E-kuaishou-q3-2026-20261119|P0｜快手：三季度线上营销服务收入同比下降11.1%]]
+- [[E-questmobile-d11-insight-20261119|P1｜QuestMobile：双11报告展示内容平台用户规模与投放差异]]

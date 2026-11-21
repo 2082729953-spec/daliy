@@ -95,3 +95,6 @@ visibility: "public"
 - [[E-meituan-dubai-winch-20261118|P1｜美团：索降无人机在迪拜亮相，航线计划近期投入使用]]
 - [[E-kuaishou-anhui-harvest-20261118|P1｜快手：安徽站组织产地商家与达人双选]]
 - [[E-cainiao-europe-line-20261119|P1｜菜鸟：升级泛欧专线，部分国家间最快两日送达]]
+- [[E-kuaishou-q3-2026-20261119|P0｜快手：三季度线上营销服务收入同比下降11.1%]]
+- [[E-douyin-cross-category-incentive-20261117|P1｜抖音：跨类目老商新开店限时扶持启动]]
+- [[E-questmobile-d11-insight-20261119|P1｜QuestMobile：双11报告展示内容平台用户规模与投放差异]]

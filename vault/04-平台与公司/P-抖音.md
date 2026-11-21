@@ -20,3 +20,5 @@ visibility: "public"
 - [[E-douyin-food-groupbuy-20261111|P0｜抖音生活服务：双11阶段餐饮团购订单同比增长]]
 - [[E-douyin-d11-close-20261112|P0｜抖音电商：双11收官披露商家和货架数据]]
 - [[E-weiyu-douyin-d11-20261116|P1｜抖音：微雨女装用场景直播展示新中式商品]]
+- [[E-douyin-cross-category-incentive-20261117|P1｜抖音：跨类目老商新开店限时扶持启动]]
+- [[E-questmobile-d11-insight-20261119|P1｜QuestMobile：双11报告展示内容平台用户规模与投放差异]]
