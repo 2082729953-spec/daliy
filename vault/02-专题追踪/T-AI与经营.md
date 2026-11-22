@@ -28,3 +28,4 @@ visibility: "public"
 - [[E-tencent-q3-marketing-20261118|P0｜腾讯：三季度营销服务收入同比增长19%]]
 - [[E-kuaishou-yoola-20261117|P1｜快手：Yoola 内测互动玩法创作与广告分成]]
 - [[E-qianwen-brand-knowledge-20261118|P1｜阿里千问：电商版推出品牌知识库]]
+- [[E-meituan-catpaw-restaurant-20261119|P0｜美团：餐饮版妙手向全国商家开放，覆盖报表与评价分析]]

@@ -98,3 +98,5 @@ visibility: "public"
 - [[E-kuaishou-q3-2026-20261119|P0｜快手：三季度线上营销服务收入同比下降11.1%]]
 - [[E-douyin-cross-category-incentive-20261117|P1｜抖音：跨类目老商新开店限时扶持启动]]
 - [[E-questmobile-d11-insight-20261119|P1｜QuestMobile：双11报告展示内容平台用户规模与投放差异]]
+- [[E-wechat-image-commerce-incentive-20261120|P1｜微信小店：图文带货激励面向低粉账号开放]]
+- [[E-oceanengine-older-ad-rules-20261118|P1｜巨量引擎：升级涉老广告审核，限制创收承诺和误导话术]]
