@@ -24,3 +24,5 @@ visibility: "public"
 - [[E-jd-drama-shopping-test-20261110|P0｜媒体报道京东内测短剧产品，商品跳转仍待完善]]
 - [[E-jd-q3-2026-results|P0｜京东：三季度平台及营销服务收入同比增长9.6%]]
 - [[E-jd-amazon-blackfriday-20261118|P1｜京东与亚马逊海外购：推出首届京亚好物节]]
+- [[E-meituan-hebei-winter-20261119|P0｜美团：河北冬游活动联动酒店、门票与餐饮，推出新手滑雪产品]]
+- [[E-jd-osta-partnership-20261120|P1｜京东：与华为OSTA星芒合作，设定三年全品类销售目标]]

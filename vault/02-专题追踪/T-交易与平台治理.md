@@ -100,3 +100,6 @@ visibility: "public"
 - [[E-questmobile-d11-insight-20261119|P1｜QuestMobile：双11报告展示内容平台用户规模与投放差异]]
 - [[E-wechat-image-commerce-incentive-20261120|P1｜微信小店：图文带货激励面向低粉账号开放]]
 - [[E-oceanengine-older-ad-rules-20261118|P1｜巨量引擎：升级涉老广告审核，限制创收承诺和误导话术]]
+- [[E-meituan-hebei-winter-20261119|P0｜美团：河北冬游活动联动酒店、门票与餐饮，推出新手滑雪产品]]
+- [[E-tiktok-us-bf-firstweek-20261123|P1｜TikTok Shop：美区黑五首周战报突出直播与图文经营]]
+- [[E-gd-crossborder-tax-consult-20261120|P1｜广东：跨境电商征管试点征求意见，涉及平台代办预缴]]

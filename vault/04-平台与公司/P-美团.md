@@ -24,3 +24,4 @@ visibility: "public"
 - [[E-20261116-xiaoxiang-chongqing|P1｜美团小象超市：媒体称重庆西南首家大店计划 11 月 20 日开业]]
 - [[E-meituan-dubai-winch-20261118|P1｜美团：索降无人机在迪拜亮相，航线计划近期投入使用]]
 - [[E-meituan-catpaw-restaurant-20261119|P0｜美团：餐饮版妙手向全国商家开放，覆盖报表与评价分析]]
+- [[E-meituan-hebei-winter-20261119|P0｜美团：河北冬游活动联动酒店、门票与餐饮，推出新手滑雪产品]]

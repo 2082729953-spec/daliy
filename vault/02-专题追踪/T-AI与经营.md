@@ -29,3 +29,4 @@ visibility: "public"
 - [[E-kuaishou-yoola-20261117|P1｜快手：Yoola 内测互动玩法创作与广告分成]]
 - [[E-qianwen-brand-knowledge-20261118|P1｜阿里千问：电商版推出品牌知识库]]
 - [[E-meituan-catpaw-restaurant-20261119|P0｜美团：餐饮版妙手向全国商家开放，覆盖报表与评价分析]]
+- [[E-jd-osta-partnership-20261120|P1｜京东：与华为OSTA星芒合作，设定三年全品类销售目标]]
