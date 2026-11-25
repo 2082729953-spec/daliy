@@ -14,3 +14,4 @@ visibility: "public"
 - [[E-qianwen-live-token-20261102|P0｜天猫直播：千问办公试卖数字会员]]
 - [[E-taobao-flash-weekend-20261110|P0｜淘宝闪购：立冬周末零售品牌交易阶段数据]]
 - [[E-tmall-peakprice-20261109|P1｜天猫：双11巅峰价首小时成交数据披露]]
+- [[E-taotian-double12-20261124|P1｜淘宝天猫：双12与双旦招商开启，主打官方立减]]

@@ -16,3 +16,4 @@ visibility: "public"
 - [[E-kuaishou-anhui-harvest-20261118|P1｜快手：安徽站组织产地商家与达人双选]]
 - [[E-kuaishou-q3-2026-20261119|P0｜快手：三季度线上营销服务收入同比下降11.1%]]
 - [[E-questmobile-d11-insight-20261119|P1｜QuestMobile：双11报告展示内容平台用户规模与投放差异]]
+- [[E-kuaishou-local-subsidy-20261124|P0｜快手：媒体称生活服务重启商户与服务商拉新补贴]]

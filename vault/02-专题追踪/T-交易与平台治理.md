@@ -103,3 +103,7 @@ visibility: "public"
 - [[E-meituan-hebei-winter-20261119|P0｜美团：河北冬游活动联动酒店、门票与餐饮，推出新手滑雪产品]]
 - [[E-tiktok-us-bf-firstweek-20261123|P1｜TikTok Shop：美区黑五首周战报突出直播与图文经营]]
 - [[E-gd-crossborder-tax-consult-20261120|P1｜广东：跨境电商征管试点征求意见，涉及平台代办预缴]]
+- [[E-kuaishou-local-subsidy-20261124|P0｜快手：媒体称生活服务重启商户与服务商拉新补贴]]
+- [[E-taotian-double12-20261124|P1｜淘宝天猫：双12与双旦招商开启，主打官方立减]]
+- [[E-jd-import-partners-20261124|P1｜京东：深化进口直采与品牌合作，强化国内供给运营]]
+- [[E-fliggy-winter-studytravel-20261124|P1｜飞猪：冬季研学供给上新，披露站内搜索热度增长]]

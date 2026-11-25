@@ -26,3 +26,4 @@ visibility: "public"
 - [[E-jd-amazon-blackfriday-20261118|P1｜京东与亚马逊海外购：推出首届京亚好物节]]
 - [[E-meituan-hebei-winter-20261119|P0｜美团：河北冬游活动联动酒店、门票与餐饮，推出新手滑雪产品]]
 - [[E-jd-osta-partnership-20261120|P1｜京东：与华为OSTA星芒合作，设定三年全品类销售目标]]
+- [[E-jd-import-partners-20261124|P1｜京东：深化进口直采与品牌合作，强化国内供给运营]]
